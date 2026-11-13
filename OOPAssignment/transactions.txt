@@ -1,0 +1,18 @@
+2026-11-13 08:40:14 | Account: 901020463 | DEPOSIT | Amount: M500.00 | Balance: M2000.00 | SUCCESS
+2026-11-13 08:40:14 | Account: 901020463 | WITHDRAW | Amount: M1450.00 | Balance: M550.00 | SUCCESS
+2026-11-13 08:40:14 | Account: 901020123 | WITHDRAW | Amount: M2600.00 | Balance: M500.00 | REJECTED: Insufficient funds: this withdrawal would exceed the overdraft limit of M2,000.00.
+2026-11-13 08:40:14 | Account: 901020123 | WITHDRAW | Amount: M2500.00 | Balance: M-2000.00 | SUCCESS
+2026-11-13 08:40:14 | Account: 901020463 | TRANSFER_OUT | Amount: M200.00 | Balance: M350.00 | SUCCESS: sent to 901020123
+2026-11-13 08:40:14 | Account: 901020123 | TRANSFER_IN | Amount: M200.00 | Balance: M-1800.00 | SUCCESS: received from 901020463
+2026-11-13 08:40:14 | Account: 901020463 | INTEREST | Amount: M17.50 | Balance: M367.50 | SUCCESS
+2026-11-13 08:40:14 | Account: 901020123 | INTEREST | Amount: M0.00 | Balance: M-1800.00 | SUCCESS
+2026-11-13 08:40:14 | Account: 901020463 | LOAN | Amount: M9000.00 | Balance: M367.50 | REJECTED: Loan rejected: the requested amount exceeds the loan limit of M5,000.00 for a savings account.
+2026-11-13 08:40:14 | Account: 901020123 | LOAN | Amount: M1000.00 | Balance: M-800.00 | SUCCESS
+2026-11-13 08:40:14 | Account: 901020567 | LOAN | Amount: M2000.00 | Balance: M3000.00 | SUCCESS
+2026-11-13 08:40:14 | Account: 901020463 | DEPOSIT | Amount: M-5.00 | Balance: M367.50 | REJECTED: Deposit amount must be greater than zero.
+2026-11-13 08:40:14 | Account: 901020463 | TRANSFER_OUT | Amount: M10.00 | Balance: M367.50 | REJECTED: Cannot transfer to the same account.
+2026-11-13 08:40:14 | Account: 111 | TRANSFER_OUT | Amount: M10.00 | Balance: N/A | REJECTED: Account '111' was not found.
+2026-11-13 11:15:58 | Account: 901020463 | WITHDRAW | Amount: M100.00 | Balance: M1400.00 | SUCCESS
+2026-11-13 11:17:31 | Account: 901020123 | DEPOSIT | Amount: M500.00 | Balance: M1000.00 | SUCCESS
+2026-11-13 11:55:31 | Account: 901020463 | TRANSFER_OUT | Amount: M100.00 | Balance: M1400.00 | SUCCESS: sent to 901020567
+2026-11-13 11:55:31 | Account: 901020567 | TRANSFER_IN | Amount: M100.00 | Balance: M1100.00 | SUCCESS: received from 901020463
